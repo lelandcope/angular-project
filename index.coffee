@@ -45,7 +45,7 @@ generateProject = (err, destination)->
 
 		exec 'cd ' + destination + " && npm install && grunt build", (error, stdout, stderr)->
 			sys.puts stdout
-			console.log 'Your project has been setup successfully'.green
+			console.log "Your project has been setup successfully \r\n".green
 
 
 # Start
